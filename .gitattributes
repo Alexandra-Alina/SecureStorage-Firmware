@@ -1,0 +1,35 @@
+# Normalize line endings
+* text=auto
+
+# C/C++ source — LF in repo
+*.c text eol=lf
+*.h text eol=lf
+*.s text eol=lf
+*.ld text eol=lf
+
+# Python — LF in repo
+*.py text eol=lf
+
+# Shell / bat
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Makefiles — LF required
+Makefile text eol=lf
+makefile text eol=lf
+
+# Linker scripts
+*.icf text eol=lf
+
+# STM32CubeMX project file
+*.ioc text eol=lf
+
+# Markdown / text
+*.md text eol=lf
+*.txt text eol=lf
+
+# Binary — no line ending conversion
+*.elf binary
+*.bin binary
+*.hex binary
+*.stldr binary

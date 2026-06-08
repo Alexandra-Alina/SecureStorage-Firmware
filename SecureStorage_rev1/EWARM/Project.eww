@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+  <project>
+    <path>$WS_DIR$\Boot\SecureStorage_rev1_Boot.ewp</path>
+  </project><project>
+    <path>$WS_DIR$\Appli\SecureStorage_rev1_Appli.ewp</path>
+  </project>
+  <batchBuild />
+</workspace>
